@@ -133,9 +133,17 @@ li {
     font-size: 24px;
     font-weight: 300;
   }
+  .services li,
+  .services h2,
+  .services h3 {
+    margin-left: 10px;
+  }
   .logo {
     margin-bottom: 40px;
   }
+}
+
+@media (min-width: 700px) {
 }
 
 p {
@@ -170,7 +178,7 @@ textarea {
 
 .about-styling h3 {
   text-align: left;
-  font-size: 42px;
+  font-size: 40px;
   font-weight: 300;
 }
 

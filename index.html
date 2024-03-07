@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-custom mt-1 ps-3">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light navbar-custom pt-2 ps-3">
         <div class="container-fluid">
             <a href="index.html"><img
                     src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/758/original/zubizu_icon_claro.png?1709732691"
@@ -50,24 +50,21 @@
             </div>
         </div>
     </nav>
-    <header>
-        <div class="container">
-            <h1>ZUBIZU STUDIO</h1>
-            <h4>DESIGN & FRONT-END STUDIO</h4>
-            <div class="home-link">
-                <a class="terciary-link" href="contact.html" title="Contact link">CONTACT</a>
-            </div>
-            <div class="scroll-down">
-                <p>↓ <small>Scroll Down</small>
-                    ↓</p>
-            </div>
+    <header class="hero">
+        <h1>ZUBIZU STUDIO</h1>
+        <h4>DESIGN & FRONT-END STUDIO</h4>
+        <div class="home-link">
+            <a class="terciary-link" href="contact.html" title="Contact link">CONTACT</a>
         </div>
+        <p class="scroll-down">↓ Scroll Down↓ </p>
+        </div>
+
     </header>
-    <section id="work">
-        <div>
-            <h2 class="text-center mb-5">LATEST PROJECTS</h2>
+    <div class="work" id="work">
+        <div class="container">
+            <h1 class="text-center mb-5">LATEST PROJECTS</h1>
             <div class="row">
-                <div class="col-lg-3 mt-4 mb-4">
+                <div class="col-md-4 mt-4 mb-4">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/725/original/MOCKUP_JAZZ.png?1708956607"
                         alt="profile picture" class="img-fluid" alt="jazz project" />
                     <div>
@@ -80,7 +77,7 @@
                             title="link to jazz project">MORE INFO</a>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4 mb-4">
+                <div class="col-md-4 mt-4 mb-4">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/730/original/MOCKUP_WEATHER_APP.png?1708963285"
                         alt="profile picture" class="img-fluid" alt="weather app project" />
                     <div>
@@ -96,9 +93,9 @@
                             INFO</a>
                     </div>
                 </div>
-                <div class="col-lg-6"></div>
-                <div class="col-lg-6"></div>
-                <div class="col-lg-3 mt-4 mb-4">
+                <div class="col-md-4 d-none d-lg-block"></div>
+                <div class="col-md-4 d-none d-lg-block"></div>
+                <div class="col-md-4 mt-4 mb-4">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/731/original/MOCKUP_WORLD_CLOCK.png?1708963298"
                         alt="profile picture" class="img-fluid" alt="world clock project" />
                     <div>
@@ -113,7 +110,7 @@
                             INFO</a>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4 mb-4">
+                <div class="col-md-4 mt-4 mb-4">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/732/original/MOCKUP_BOOK_REC_GENERATOR.png?1708963313"
                         alt="profile picture" class="img-fluid" alt="AI project" />
                     <div>
@@ -129,7 +126,7 @@
                             INFO</a>
                     </div>
                 </div>
-                <div class="col-lg-3 mt-4 mb-4">
+                <div class="col-lg-4 mt-4 mb-4">
                     <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/762/original/MOCKUP_ILLUSTRATION.png?1708978090"
                         alt="profile picture" class="img-fluid" alt="illustration project" />
                     <div>
@@ -145,26 +142,28 @@
                     </div>
                 </div>
 
-                <div class="col-lg-9"></div>
+                <div class="col-lg-8 d-none d-lg-block"></div>
 
             </div>
 
-    </section>
-    <section id="about">
-        <div>
-            <h2 class="text-center mb-5">ABOUT</h2>
-            <div class="row about-styling">
-                <div class="col-lg-5 mt-4 mb-4">
-                    <h4>Zubizu Studio is the storefront for Amaia Arbizu, a bilingual multimedia designer and front-end
-                        developer based in northern Spain.</h4>
+        </div>
+    </div>
+    <div class="about" id="about">
+        <div class="container">
+            <h1 class="text-center mb-5">ABOUT</h1>
+            <div class="row about-styling mt-4 mb-5">
+                <div class="col-lg-7">
+                    <h3>Zubizu Studio is the storefront for Amaia Arbizu, a bilingual multimedia designer and
+                        front-end
+                        developer based in northern Spain.</h3>
                 </div>
                 <div class="col-lg-2"></div>
-                <div class="row about-styling mt-2 mb-4">
-                    <div class="col-lg-4">
+                <div class="row about-styling mt-4 mb-5">
+                    <div class="col-lg-5">
                         <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/116/775/original/Amaia_BW_LR.png?1708981961"
                             alt="profile picture" class="img-fluid" alt="profile image" />
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-4">
                         <p class="mb-5">With extensive international experience as an
                             in-house and freelance designer, her skill set combines varied media technical knowledge
                             with a
@@ -183,12 +182,13 @@
                     </div>
                 </div>
             </div>
-    </section>
+        </div>
+    </div>
 
-    <main id="services">
+    <main class="services" id="services">
         <div class="container">
-            <h2 class="text-center mb-5">SERVICES</h2>
-            <div class="row">
+            <h1 class="text-center mb-5">SERVICES</h1>
+            <div class="row mb-5">
                 <div class="col-lg-3 mt-5">
                     <h2>01.</h2>
                     <h3>DESIGN</h3>
@@ -231,16 +231,17 @@
                     <ul>
                         <li>Social Media Strategy</li>
                         <li>Social Media Ad Campaigns</li>
-                        <li>Search Engine Optimization (SEO)</li>
+                        <li>SEO</li>
                         <li>Promotional Video Editing</li>
                         <li>Motion Graphics</li>
                     </ul>
                 </div>
             </div>
+        </div>
     </main>
     <footer>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 logo">
                 <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/758/original/zubizu_icon_claro.png?1709732691"
                     alt="profile picture" class="img-fluid" alt="logo" />
             </div>

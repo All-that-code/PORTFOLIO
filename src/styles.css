@@ -165,11 +165,16 @@ textarea {
 
 .navbar-custom {
   background-color: var(--main-color) !important;
+  color: var(--background) !important;
 }
 
 .navbar-toggler {
   border: none;
   background: var(--main-color);
+}
+
+.navbar-toggler-icon {
+  border: none;
   color: var(--background);
 }
 
